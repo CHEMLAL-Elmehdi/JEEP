@@ -1,0 +1,7 @@
+package org.sid.entities;
+import org.sid.entities.Employees;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EmployeesRepositoory extends JpaRepository<Employees,Long>{
+
+}

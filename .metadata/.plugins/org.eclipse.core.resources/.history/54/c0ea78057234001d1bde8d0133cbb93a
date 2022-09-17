@@ -1,0 +1,11 @@
+spring.datasource.username = dbemployees
+spring.datasource.password = 
+spring.datasource.driverClassName = com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
+
+
+
+
+Class.forName("com.mysql.jdbc.Driver");
+Connection Hello = DriverManager.getConnection("jdbc:mysql://dbemployees", "dbemployees", "");
